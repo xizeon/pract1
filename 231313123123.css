@@ -1,0 +1,39 @@
+@media screen and (min-width: 516px) and (max-width: 1024px) {
+    header {
+        height: auto;
+    }
+    header a {
+        display: none;
+    }
+    .tablet_icon {
+        display: block;
+        width: 2.5rem;
+        height: 2.5rem;
+        background: #fff;
+        padding: .5rem;
+        border-radius: 8px;
+        margin: 1rem;
+    }
+    .tablet_icon img {
+        width: 100%;
+    }
+    .popup {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        left: 0;
+        background: rgba(255, 255, 255, .8);
+    }
+    header:hover .popup a {
+        display: block;
+        text-align: center;
+        color: black;
+        margin: 10px 0;
+    }
+    #grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .mobile_icon {
+        display: none;
+    }
+}
